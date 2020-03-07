@@ -1,0 +1,74 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Thu Sep 20 00:16:58 2018
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000126
+                   .cinit    romdata   0x000093    program   0x000004
+.config_2007_BUILD/DEFAULT/PRODUCTION/LCD_16F       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000094      
+                            0x002007    0x002007      
+            150 out of 8454 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+              DELAY_50_MS   0x000057    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+             ENABLE_PULSE   0x000052    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+                GO_BANK_0   0x000046    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+                GO_BANK_1   0x000049    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+                GO_BANK_2   0x00004c    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+                GO_BANK_3   0x00004f    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+            INITIALIZE_IC   0x00003a    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+           INITIALIZE_LCD   0x000005    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+                     Main   0x000001    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+               PRINT_CHAR   0x00008b    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+                     WAIT   0x00008e    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+             dataSendMode   0x000011    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+             displayClear   0x00001e    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+          instructionMode   0x00000d    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+          setDisplayOnOff   0x000019    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+           setEntryModule   0x000024    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+             setFunctions   0x000013    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+        set_CGRAM_address   0x000029    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+set_DDRAM_address_to_line1   0x00002e    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+set_DDRAM_address_to_line2   0x000034    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+              writeOnDisp   0x00005c    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     Main   0x000001    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+           INITIALIZE_LCD   0x000005    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+          instructionMode   0x00000d    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+             dataSendMode   0x000011    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+             setFunctions   0x000013    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+          setDisplayOnOff   0x000019    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+             displayClear   0x00001e    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+           setEntryModule   0x000024    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+        set_CGRAM_address   0x000029    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+set_DDRAM_address_to_line1   0x00002e    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+set_DDRAM_address_to_line2   0x000034    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+            INITIALIZE_IC   0x00003a    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+                GO_BANK_0   0x000046    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+                GO_BANK_1   0x000049    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+                GO_BANK_2   0x00004c    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+                GO_BANK_3   0x00004f    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+             ENABLE_PULSE   0x000052    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+              DELAY_50_MS   0x000057    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+              writeOnDisp   0x00005c    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+               PRINT_CHAR   0x00008b    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+                     WAIT   0x00008e    program     static C:\Users\acer\MPLABXProjects\16F877A_LCD.X\LCD_16F877A.asm
+
+
